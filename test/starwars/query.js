@@ -1,0 +1,1 @@
+export default 'query StarWarsAppHomeRoute{factions(names:"rebels"){id,..._0fedfd00b}} fragment _15b544005 on Ship{name,id} fragment _0fedfd00b on Faction{name,_ships231b69cb:ships(first:10){edges{node{id,..._15b544005},cursor},pageInfo{hasNextPage,hasPreviousPage}},id}';

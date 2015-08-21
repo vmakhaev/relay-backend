@@ -1,0 +1,1 @@
+export default 'query AppHomeRoute{game{id,..._0c28183ce}} fragment _14527488d on HidingSpot{id} fragment _216bd1309 on Game{id,turnsRemaining} fragment _0c28183ce on Game{turnsRemaining,_hidingSpotsfae0c369:hidingSpots(first:9){edges{node{hasBeenChecked,hasTreasure,id,..._14527488d},cursor},pageInfo{hasNextPage,hasPreviousPage}},id,..._216bd1309}';
